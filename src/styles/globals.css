@@ -11,3 +11,38 @@
     @apply font-proxima;
   }
 }
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/proximanova_regular.ttf') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/proximanova_bold.otf') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/proximanova_extrabold.otf') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Interstate Condensed';
+  src: url('/fonts/interstate-regular-condensed.ttf') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Interstate Condensed';
+  src: url('/fonts/interstate-light-condensed.otf') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}

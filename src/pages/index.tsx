@@ -8,15 +8,18 @@ export default function Home() {
         <h2 className="text-green1 text-center text-4xl font-bold mb-10">
           Upcoming Utah Medical Card Events
         </h2>
+        <p className="text-green1 text-center text-4xl font-bold mb-10">
+          Upcoming Utah Medical Card Events
+        </p>
         <div className="max-w-5xl mx-auto space-y-8">
           <div className="flex items-center p-6 bg-grey3 border border-green1 rounded-xl gap-4"> 
-            <div className="w-1/4 text-green1 font-semibold text-center text-md">Downtown<br />SLC</div>
+            <h6 className="w-1/4 text-green2 font-bold text-center text-md">Downtown<br />SLC</h6>
             <div className="w-2/4 text-green1 text-left min-w-[200px]">
-              <p className="font-bold text-xl">
+              <h3 className="font-extrabold text-2xl">
                   Tuesday, October 3<sup>rd</sup> 2023
-              </p>
-              <p className="text-green2 text-sm">9:00 am – 2:00 pm</p>
-              <p className="text-green2 text-sm">New Patients and Renewals</p>
+              </h3>
+              <h5 className="text-green2 font-bold text-lg">9:00 am – 2:00 pm</h5>
+              <h5 className="text-green2 font-bold text-lg">New Patients and Renewals</h5>
             </div>
             <div className="w-1/4 flex justify-center shrink-0">
               <button className="bg-tan2 text-green1 px-6 py-3 rounded-full font-semibold text-sm">
@@ -25,28 +28,28 @@ export default function Home() {
             </div>
           </div>
           <div className="flex items-center p-6 bg-grey3 border border-green1 rounded-xl gap-4"> 
-            <div className="w-1/4 text-green1  font-semibold text-center text-md">Price UT</div>
+            <h6 className="w-1/4 text-green2 font-bold text-center text-md">Price UT</h6>
             <div className="w-2/4 text-green1 text-left min-w-[200px]">
-              <p className="font-bold text-xl">
+              <h5 className="font-extrabold text-2xl">
                   Thursday, October 19<sup>th</sup> 2023
-              </p>
-              <p className="text-green2 text-sm">9:00 am – 4:00 pm</p>
-              <p className="text-green2 text-sm">New Patients and Renewals</p>
+              </h5>
+              <h5 className="text-green2 font-bold text-lg">9:00 am – 4:00 pm</h5>
+              <h5 className="text-green2 font-bold text-lg">Renewals Only</h5>
             </div>
             <div className="w-1/4 flex justify-center shrink-0">
-              <button className="bg-tan2 text-green1 px-6 py-3 rounded-full font-semibold text-sm">
-                Book Time
+              <button className="bg-tan2 text-green1 px-6 py-3 rounded-full font-bold text-sm">
+                <h5>Book Time</h5>
               </button>
             </div>
           </div>
           <div className="flex items-center p-6 bg-grey3 border border-green1 rounded-xl gap-4"> 
-            <div className="w-1/4 text-green1 font-semibold text-center text-md">Other Location</div>
+            <h6 className="w-1/4 text-green1 font-bold text-center text-md">Other Location</h6>
             <div className="w-2/4 text-green1 text-left min-w-[200px]">
-              <p className="font-bold text-lg">
+              <h5 className="font-bold text-2xl">
                   Friday, November 10<sup>th</sup> 2023
-              </p>
-              <p className="text-green2 text-sm">10:00 am – 2:00 pm</p>
-              <p className="text-green2 text-sm">Special Event for Veterans</p>
+              </h5>
+              <h5 className="text-green2 font-bold text-lg">10:00 am – 2:00 pm</h5>
+              <h5 className="text-green2 font-bold text-lg">Special Event for Veterans</h5>
             </div>
             <div className="w-1/4 flex justify-center shrink-0">
               <button className="bg-tan2 text-green1 px-6 py-3 rounded-full font-semibold text-sm">
