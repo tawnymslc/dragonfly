@@ -11,49 +11,49 @@ export default function Home() {
         <p className="text-green1 text-center text-4xl font-bold mb-10">
           Upcoming Utah Medical Card Events
         </p>
-        <div className="max-w-5xl mx-auto space-y-8">
-          <div className="flex items-center p-6 bg-grey3 border border-green1 rounded-xl gap-4"> 
+        <div className="max-w-3-4xl mx-auto space-y-8">
+          <div className="flex items-center py-4 bg-grey3 border border-green1 rounded-xl gap-4"> 
             <h6 className="w-1/4 text-green2 font-bold text-center text-md">Downtown<br />SLC</h6>
-            <div className="w-2/4 text-green1 text-left min-w-[200px]">
+            <div className="w-2/4 text-green1 text-left min-w-[200px] leading-tight">
               <h3 className="font-extrabold text-2xl">
                   Tuesday, October 3<sup>rd</sup> 2023
               </h3>
-              <h5 className="text-green2 font-bold text-lg">9:00 am – 2:00 pm</h5>
-              <h5 className="text-green2 font-bold text-lg">New Patients and Renewals</h5>
+              <h5 className="text-green2 font-bold text-lg leading-tight">9:00 am – 2:00 pm</h5>
+              <h5 className="text-green2 font-bold text-lg leading-tight">New Patients and Renewals</h5>
             </div>
             <div className="w-1/4 flex justify-center shrink-0">
-              <button className="bg-tan2 text-green1 px-6 py-3 rounded-full font-semibold text-sm">
-                Book Time
-              </button>
-            </div>
-          </div>
-          <div className="flex items-center p-6 bg-grey3 border border-green1 rounded-xl gap-4"> 
-            <h6 className="w-1/4 text-green2 font-bold text-center text-md">Price UT</h6>
-            <div className="w-2/4 text-green1 text-left min-w-[200px]">
-              <h5 className="font-extrabold text-2xl">
-                  Thursday, October 19<sup>th</sup> 2023
-              </h5>
-              <h5 className="text-green2 font-bold text-lg">9:00 am – 4:00 pm</h5>
-              <h5 className="text-green2 font-bold text-lg">Renewals Only</h5>
-            </div>
-            <div className="w-1/4 flex justify-center shrink-0">
-              <button className="bg-tan2 text-green1 px-6 py-3 rounded-full font-bold text-sm">
+              <button className="bg-tan2 text-green2 px-6 py-2 rounded-full font-semibold text-lg">
                 <h5>Book Time</h5>
               </button>
             </div>
           </div>
-          <div className="flex items-center p-6 bg-grey3 border border-green1 rounded-xl gap-4"> 
-            <h6 className="w-1/4 text-green1 font-bold text-center text-md">Other Location</h6>
+          <div className="flex items-center py-4 bg-grey3 border border-green1 rounded-xl gap-4"> 
+            <h6 className="w-1/4 text-green2 font-bold text-center text-md">Price UT</h6>
             <div className="w-2/4 text-green1 text-left min-w-[200px]">
-              <h5 className="font-bold text-2xl">
-                  Friday, November 10<sup>th</sup> 2023
+              <h5 className="font-extrabold text-2xl leading-tight">
+                  Thursday, October 19<sup>th</sup> 2023
               </h5>
-              <h5 className="text-green2 font-bold text-lg">10:00 am – 2:00 pm</h5>
-              <h5 className="text-green2 font-bold text-lg">Special Event for Veterans</h5>
+              <h5 className="text-green2 font-bold text-lg leading-tight">9:00 am – 4:00 pm</h5>
+              <h5 className="text-green2 font-bold text-lg leading-tight">Renewals Only</h5>
             </div>
             <div className="w-1/4 flex justify-center shrink-0">
-              <button className="bg-tan2 text-green1 px-6 py-3 rounded-full font-semibold text-sm">
-                Book Time
+              <button className="bg-tan2 text-green2 px-6 py-2 rounded-full font-semibold text-lg">
+                <h5>Book Time</h5>
+              </button>
+            </div>
+          </div>
+          <div className="flex items-center py-4 bg-grey3 border border-green1 rounded-xl gap-4"> 
+            <h6 className="w-1/4 text-green2 font-bold text-center text-md">Other Location</h6>
+            <div className="w-2/4 text-green1 text-left min-w-[200px]">
+              <h5 className="font-extrabold text-2xl leading-tight">
+                  Friday, November 10<sup>th</sup> 2023
+              </h5>
+              <h5 className="text-green2 font-bold text-lg leading-tight">10:00 am – 2:00 pm</h5>
+              <h5 className="text-green2 font-bold text-lg leading-tight">Special Event for Veterans</h5>
+            </div>
+            <div className="w-1/4 flex justify-center shrink-0">
+              <button className="bg-tan2 text-green2 px-6 py-2 rounded-full font-semibold text-lg">
+                <h5>Book Time</h5>
               </button>
             </div>
           </div>
@@ -64,22 +64,22 @@ export default function Home() {
         <h3 className="text-green1 text-center text-3xl font-bold mb-12">
           Things to know before your appointment
         </h3>
-          <div className="max-w-5xl mx-auto space-y-12 text-green1 font-semibold">
+          <div className="max-w-3-4xl mx-auto space-y-12 text-green1 text font-proxima font-semibold">
             <div className="flex items-start gap-8">
               <div className="w-12 min-w-[48px]">
                 <img src="../assets/Number1.png" alt="Step 1" />
               </div>
               <div className="flex-1 space-y-4">
-                <p className="text-green1 text-xl">
+                <p className="text-green1 text-lg">
                   You’re going to register with the state of Utah. You can start this before you arrive.
                 </p>
                 {/* Row: Buttons + Description */}
                 <div className="flex flex-wrap items-center gap-4">
-                  <button className="bg-tan2 px-6 py-2 rounded-full text-sm min-w-[180px]">UtahID.org</button>
+                  <button className="bg-tan2 text-green2 px-6 py-2 rounded-full text-sm min-w-[180px]">UtahID.org</button>
                   <span>Obtain access to your Utah Digital ID</span>
                 </div>
                 <div className="flex flex-wrap items-center gap-4">
-                  <button className="bg-tan2 px-6 py-2 rounded-full text-sm min-w-[180px]">EVS.Utah.gov</button>
+                  <button className="bg-tan2 text-green2 px-6 py-2 rounded-full text-sm min-w-[180px]">EVS.Utah.gov</button>
                   <span>Fill out all the fields until you get to “Awaiting Certification” status</span>
                 </div>
                 {/* Image under text (slider graphic) */}
@@ -97,8 +97,8 @@ export default function Home() {
               {/* Right: Title + List side-by-side */}
               <div className="mt-3 flex-1 items-center">
                 <div className="flex flex-col md:flex-row gap-4">
-                  <p className="text-xl font-semibold md:w-1/4">Check in with your QMP</p>
-                  <ul className="leading-relaxed list-decimal list-inside md:w-3/4 space-y-1">
+                  <p className="text-lg font-semibold md:w-1/3">Check in with your QMP</p>
+                  <ul className="leading-relaxed list-decimal list-inside md:w-2/3 space-y-1 text-sm">
                     <li>QMP Registration</li>
                     <li>Medical Evaluation/Consultation</li>
                     <li>Payment</li>
@@ -113,8 +113,8 @@ export default function Home() {
               </div>
               <div className="mt-3 flex-1 space-y-2">
                 <div className="flex flex-col md:flex-row gap-4">
-                <p className="text-xl md:w-1/4">Renewal or New Patient?</p>
-                  <div className="leading-loose md:w-3/4">
+                <p className="text-lg md:w-1/3">Renewal or New Patient?</p>
+                  <div className="leading-loose md:w-2/3 text-sm">
                     <p>If this is a renewal, congratulations you are ready to shop…</p>
                     <p>If you are a new patient, here are some helps to get you started…</p>
                     <ul className="list-decimal list-inside pl-10">
@@ -131,7 +131,7 @@ export default function Home() {
       </section>
       {/* SECTION 3 */}
       <section className="py-16 px-4">
-        <div className="max-w-5xl mx-auto space-y-12">
+        <div className="max-w-3-4xl mx-auto space-y-12 font-proxima">
           <div>
             <img src="/assets/MockBannerAd.png" alt="Leaf Nation Banner" className="w-full h-auto rounded-md" />
           </div>
@@ -139,7 +139,7 @@ export default function Home() {
             <img src="/assets/Consultation.png" alt="Doctor Consultation" className="w-full h-auto rounded-lg" />
             <div className="self-start md:pl-6">
               <h2 className="text-green1 font-bold text-4xl mb-4 pt-4">Utah Medical Cards</h2>
-              <p className="text-gray-800 font-medium text-lg leading-9">
+              <p className="text-grey2 font-bold text-sm leading-loose">
                 A medical cannabis card, also known as a medical marijuana card, is a state-issued identification card
                 that allows qualified patients to legally purchase and use medical cannabis for the treatment of specific
                 medical conditions. In Utah, a card is required to access and purchase medical cannabis products from
@@ -166,10 +166,10 @@ export default function Home() {
         </div>
       </section>
       {/*Section4*/}
-      <section className="py-16 px-4">
-        <div className="max-w-5xl mx-auto space-y-12">
-          <h2 className="text-green1 font-bold text-4xl mb-1">FAQs...</h2>
-          <ul className="space-y-4 text-green1 text-lg font-medium leading-relaxed">
+      <section className="py-4 px-4 font-proxima">
+        <div className="max-w-3-4xl mx-auto space-y-8">
+          <h2 className="text-green1 font-bold text-4xl">FAQs...</h2>
+          <ul className="space-y-4 text-green2 text-lg font-bold leading-none">
             <li>If I don’t qualify, do I still have to pay the QMP?</li>
             <li>What are Utah’s qualifying medical conditions?</li>
             <li>Is documentation required to prove you have a medical condition?</li>
@@ -186,146 +186,146 @@ export default function Home() {
       </section>
       {/*Section5*/}
       <section className="py-16 px-4">
-        <div className="max-w-5xl mx-auto space-y-12">
+        <div className="max-w-3-4xl mx-auto space-y-12 font-proxima">
           <h2 className="text-green1 font-bold text-4xl mb-10">Utah Medical Cannabis Pharmacies</h2>
           <div className="space-y-10">
             {/* Row: Dragonfly Wellness */}
-            <div className="flex flex-col md:flex-row md:gap-6">
+            <div className="flex flex-col md:flex-row">
               {/* Column 1 */}
-              <div className="md:w-[40%]">
+              <div className="md:w-[45%]">
                 <p className="text-green2 font-semibold text-lg">Dragonfly Wellness</p>
-                <p>711 South State Street, Salt Lake City UT 84111</p>
-                <p>20 Main Street, Price UT 84501</p>
+                <p className="text-grey2 font-semibold text-sm">711 South State Street, Salt Lake City UT 84111</p>
+                <p className="text-grey2 font-semibold text-sm">20 Main Street, Price UT 84501</p>
                 <button className="bg-tan2 text-green1 px-4 py-1 mt-2 rounded-full text-sm font-semibold">
                   New Patient Specials
                 </button>
               </div>
               {/* Column 2 */}
               <div className="mt-4 md:mt-[24px] md:w-[20%]">
-                <p>801-413-6945</p>
-                <p>435-637-3770</p>
+                <p className="text-grey2 font-semibold text-sm">801-413-6945</p>
+                <p className="text-grey2 font-semibold text-sm">435-637-3770</p>
               </div>
               {/* Column 3 */}
-              <div className="mt-4 md:mt-[24px] md:w-[40%]">
-                <a href="https://www.dragonflywellness.com" className="text-gray-600 hover:underline">
+              <div className="mt-4 md:mt-[24px] md:flex-1">
+                <a href="https://www.dragonflywellness.com" className="text-grey2 font-semibold hover:underline text-sm">
                   www.dragonflywellness.com
                 </a>
               </div>
             </div>
             {/* Repeat for each pharmacy */}
             {/* Bloc Pharmacy */}
-            <div className="flex flex-col md:flex-row md:gap-6">
-              <div className="md:w-[40%]">
+            <div className="flex flex-col md:flex-row">
+              <div className="md:w-[45%]">
                 <p className="text-green2 font-semibold text-lg">Bloc Pharmacy</p>
-                <p>10392 South Jordan Gateway South Jordan UT 84095</p>
-                <p>1624 S Convention Center Dr. St. George UT 84790</p>
+                <p className="text-grey2 font-semibold text-sm">10392 South Jordan Gateway South Jordan UT 84095</p>
+                <p className="text-grey2 font-semibold text-sm">1624 S Convention Center Dr. St. George UT 84790</p>
               </div>
-              <div className="mt-4 md:mt-[24px] md:w-[20%]">
-                <p>385-249-9400</p>
-                <p>435-216-3400</p>
+              <div className="mt-4 md:mt-[28px] md:w-[20%]">
+                <p className="text-grey2 font-semibold text-sm">385-249-9400</p>
+                <p className="text-grey2 font-semibold text-sm">435-216-3400</p>
               </div>
-              <div className="mt-4 md:mt-[24px] md:w-[40%]">
-                <a href="https://www.blocdispensary.com" className="text-gray-600 hover:underline">
+              <div className="mt-4 md:mt-[24px] md:flex-1">
+                <a href="https://www.blocdispensary.com" className="text-grey2 font-semibold hover:underline text-sm">
                   www.blocdispensary.com
                 </a>
               </div>
             </div>
             {/* Repeat this block for Beehive, Cannabist, Curaleaf, etc. */}
-            <div className="flex flex-col md:flex-row md:gap-6">
-              <div className="md:w-[40%]">
+            <div className="flex flex-col md:flex-row">
+              <div className="md:w-[45%]">
                 <p className="text-green2 font-semibold text-lg">Beehive Pharmacy</p>
-                <p>1991 S 3600 W Salt Lake City UT 84007</p>
-                <p>870 W 1150 S Suite C Brigham City UT 84032</p>
+                <p className="text-grey2 font-semibold text-sm">1991 S 3600 W Salt Lake City UT 84007</p>
+                <p className="text-grey2 font-semibold text-sm">870 W 1150 S Suite C Brigham City UT 84032</p>
               </div>
-              <div className="mt-4 md:mt-[24px] md:w-[20%]">
-                <p>385-212-0088</p>
-                <p>435-919-0966</p>
+              <div className="mt-4 md:mt-[28px] md:w-[20%]">
+                <p className="text-grey2 font-semibold text-sm">385-212-0088</p>
+                <p className="text-grey2 font-semibold text-sm">435-919-0966</p>
               </div>
-              <div className="mt-4 md:mt-[24px] md:w-[40%]">
-                <a href="https://www.beehivefarmacy.com" className="text-gray-600 hover:underline">
+              <div className="mt-4 md:mt-[24px] md:flex-1">
+                <a href="https://www.beehivefarmacy.com" className="text-grey2 font-semibold hover:underline text-sm">
                   www.beehivefarmacy.com
                 </a>
               </div>
             </div>
             {/*next*/}
-            <div className="flex flex-col md:flex-row md:gap-6">
-              <div className="md:w-[40%]">
-                <p className="text-green1 font-semibold text-lg">Cannabist</p>
-                <p>484 South 1750 West Springville UT 84663</p>
+            <div className="flex flex-col md:flex-row">
+              <div className="md:w-[45%]">
+                <p className="text-green2 font-semibold text-lg">Cannabist</p>
+                <p className="text-grey2 font-semibold text-sm">484 South 1750 West Springville UT 84663</p>
               </div>
-              <div className="mt-4 md:mt-[24px] md:w-[20%]">
-                <p>385-249-9400</p>
+              <div className="mt-4 md:mt-[28px] md:w-[20%]">
+                <p className="text-grey2 font-semibold text-sm">385-249-9400</p>
               </div>
-              <div className="mt-4 md:mt-[24px] md:w-[40%]">
-                <a href="https://www.gocannabist.com" className="text-gray-600 hover:underline">
+              <div className="mt-4 md:mt-[24px] md:flex-1">
+                <a href="https://www.gocannabist.com" className="text-grey2 font-semibold hover:underline text-sm">
                   www.gocannabist.com
                 </a>
               </div>
             </div>
             {/*next*/}
-            <div className="flex flex-col md:flex-row md:gap-6">
-              <div className="md:w-[40%]">
+            <div className="flex flex-col md:flex-row">
+              <div className="md:w-[45%]">
                 <p className="text-green2 font-semibold text-lg">Curaleaf</p>
-                <p>3633 N Thanksgiving Way, Lehi UT 84043</p>
-                <p>1351 Kearns Blvd Suite 110-B Park City UT 84060</p>
-                <p>222 N Draper Ln Provo UT 84601</p>
-                <p>757 S 1040 W Payson UT 84651</p>
+                <p className="text-grey2 font-semibold text-sm">3633 N Thanksgiving Way, Lehi UT 84043</p>
+                <p className="text-grey2 font-semibold text-sm">1351 Kearns Blvd Suite 110-B Park City UT 84060</p>
+                <p className="text-grey2 font-semibold text-sm">222 N Draper Ln Provo UT 84601</p>
+                <p className="text-grey2 font-semibold text-sm">757 S 1040 W Payson UT 84651</p>
               </div>
-              <div className="mt-4 md:mt-[24px] md:w-[20%]">
-                <p>385-338-8010</p>
-                <p>435-252-1052</p>
-                <p>801-872-7447</p>
-                <p>385-404-4422</p>
+              <div className="mt-4 md:mt-[28px] md:w-[20%]">
+                <p className="text-grey2 font-semibold text-sm">385-338-8010</p>
+                <p className="text-grey2 font-semibold text-sm">435-252-1052</p>
+                <p className="text-grey2 font-semibold text-sm">801-872-7447</p>
+                <p className="text-grey2 font-semibold text-sm">385-404-4422</p>
               </div>
-              <div className="mt-4 md:mt-[24px] md:w-[40%]">
-                <a href="https://www.curaleaf.com" className="text-gray-600 hover:underline">
+              <div className="mt-4 md:mt-[24px] md:flex-1">
+                <a href="https://www.curaleaf.com" className="text-grey2 font-semibold hover:underline text-sm">
                   www.curaleaf.com
                 </a>
               </div>
             </div>
             {/* Repeat this block for Beehive, Cannabist, Curaleaf, etc. */}
-            <div className="flex flex-col md:flex-row md:gap-6">
-              <div className="md:w-[40%]">
+            <div className="flex flex-col md:flex-row">
+              <div className="md:w-[45%]">
                 <p className="text-green2 font-semibold text-lg">The Flower Shop</p>
-                <p>3775 S Wa;; Ave South Ogden UT 84005</p>
-                <p>2150 N Main St. Suite 1 North Logan UT 84341</p>
+                <p className="text-grey2 font-semibold text-sm">3775 S Wall Ave South Ogden UT 84005</p>
+                <p className="text-grey2 font-semibold text-sm">2150 N Main St. Suite 1 North Logan UT 84341</p>
               </div>
-              <div className="mt-4 md:mt-[24px] md:w-[20%]">
-                <p>385-289-1800(Ext1)</p>
-                <p>385-289-1800(Ext2)</p>
+              <div className="mt-4 md:mt-[28px] md:w-[20%]">
+                <p className="text-grey2 font-semibold text-sm">385-289-1800(Ext1)</p>
+                <p className="text-grey2 font-semibold text-sm">385-289-1800(Ext2)</p>
               </div>
-              <div className="mt-4 md:mt-[24px] md:w-[40%]">
-                <a href="https://www.theflowershopusa.com" className="text-gray-600 hover:underline">
+              <div className="mt-4 md:mt-[24px] md:flex-1">
+                <a href="https://www.theflowershopusa.com" className="text-grey2 font-semibold hover:underline text-sm">
                   www.theflowershopusa.com
                 </a>
               </div>
             </div>
             {/*next*/}
-            <div className="flex flex-col md:flex-row md:gap-6">
-              <div className="md:w-[40%]">
+            <div className="flex flex-col md:flex-row">
+              <div className="md:w-[45%]">
                 <p className="text-green2 font-semibold text-lg">WholesomeCo</p>
-                <p className="text-grey2 font-semibold">580 W 100 N Suite 1, West Bountiful UT 84010</p>
+                <p className="text-grey2 font-semibold text-sm">580 W 100 N Suite 1, West Bountiful UT 84010</p>
               </div>
-              <div className="mt-4 md:mt-[24px] md:w-[20%]">
-                <p className="text-grey2 font-semibold">801-695-4480</p>
+              <div className="mt-4 md:mt-[28px] md:w-[20%]">
+                <p className="text-grey2 font-semibold text-sm">801-695-4480</p>
               </div>
-              <div className="mt-4 md:mt-[24px] md:w-[40%]">
-                <a href="https://www.wholesome.co" className="text-grey2 font-semibold hover:underline">
+              <div className="mt-4 md:mt-[24px] md:flex-1">
+                <a href="https://www.wholesome.co" className="text-grey2 font-semibold hover:underline text-sm">
                   www.wholesome.co
                 </a>
               </div>
             </div>
             {/*next*/}
-            <div className="flex flex-col md:flex-row md:gap-6">
-              <div className="md:w-[40%]">
+            <div className="flex flex-col md:flex-row">
+              <div className="md:w-[45%]">
                 <p className="text-green2 font-semibold text-lg">Zion Medicinial</p>
-                <p className="text-grey2 font-semibold">301 S Main St. Cedar City UT 84720</p>
+                <p className="text-grey2 font-semibold text-sm">301 S Main St. Cedar City UT 84720</p>
               </div>
-              <div className="mt-4 md:mt-[24px] md:w-[20%]">
-                <p className="text-grey2 font-semibold">435-244-4485</p>
+              <div className="mt-4 md:mt-[28px] md:mt-[24px] md:w-[20%]">
+                <p className="text-grey2 font-semibold text-sm">435-244-4485</p>
               </div>
-              <div className="mt-4 md:mt-[24px] md:w-[40%]">
-                <a href="https://www.blocdispensary.com" className="text-grey2 font-semibold hover:underline">
+              <div className="mt-4 md:mt-[24px] md:flex-1">
+                <a href="https://www.blocdispensary.com" className="text-grey2 font-semibold hover:underline text-sm">
                   www.zionmed.co
                 </a>
               </div>
@@ -334,15 +334,15 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 px-4 relative">
-        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+      <section className="py-12 px-4 font-proxima relative">
+        <div className="max-w-3-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Left content */}
           <div>
             <h2 className="text-green1 font-bold text-4xl mb-6">About Utah Grown</h2>
-            <p className="text-grey2 text-grey2 font-semibold leading-9 mb-12">
+            <p className="text-grey2 text-grey2 font-semibold text-sm leading-loose">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam- corper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore.
             </p>
-            <h2 className="text-green1 font-bold text-4xl mb-2">Utah Grown Office</h2>
+            <h2 className="text-green1 font-bold text-3xl mt-8">Utah Grown Office</h2>
             <p className="text-grey2 font-semibold text-xl">730 State Street</p>
             <p className="text-grey2 font-semibold text-xl">Salt Lake City, Utah 84111</p>
           </div>
@@ -351,11 +351,12 @@ export default function Home() {
             <img
               src="/assets/NormalizeItUtah@2x.png"
               alt="Normalize"
-              className="w-full max-w-[700px] mx-auto -mt-16 relative"
+              className="w-[120%] max-w-none mx-auto -mt-16 relative"
             />
+            
           </div>
+           <div className="absolute bottom-[145px] left-0 w-full h-[2px] bg-green1" />
         </div>  
-       <div className="absolute bottom-0 left-0 w-full border-t-2 border-green1 z-[-1]" />
       </section>
     </main>
   );

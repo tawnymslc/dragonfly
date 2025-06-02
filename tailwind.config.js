@@ -21,6 +21,9 @@ module.exports = {
         proxima: ['"Proxima Nova"', 'sans-serif'],
         interstate: ['"Interstate Condensed"', 'sans-serif'],
       },
+      maxWidth: {
+        '3-4xl': '52rem', // Halfway between 4xl and 5xl
+      },
     },
   },
   plugins: [],
