@@ -5,9 +5,8 @@ export default function Home() {
   return (
     <main className="bg-white ">
       <Header />
-      {/* SECTION 1 */}
       <section className="mb-4 px-4">
-        <h4 className="text-green1 text-center text-2xl font-medium tracking-wide mb-10">
+        <h4 className="text-green1 text-center text-2xl tracking-wide mb-10">
           Utah’s Cannabis Community
         </h4>
         <h2 className="text-green1 text-center text-3xl md:text-4xl font-bold mb-10">
@@ -61,7 +60,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* SECTION 2 */}
       <section className="mb-4 py-8 px-4">
         <h3 className="text-green1 text-center text-2xl md:text-3xl font-bold mb-4">
           Things to know before your appointment
@@ -83,7 +81,6 @@ export default function Home() {
                 <button className="bg-tan2 text-green2 px-4 py-2 rounded-full text-sm min-w-[160px]">EVS.Utah.gov</button>
                 <span className="text-sm">Fill out all the fields until you get to “Awaiting Certification” status</span>
               </div>
-              {/* IMAGE */}
               <div className="pt-4">
                 <img src="../assets/AwaitingCert-Image.png" alt="Awaiting Certification"  className="max-w-[175px] mx-auto w-full"/>
               </div>
@@ -126,7 +123,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* SECTION 3 */}
       <section className="mb-4 py-8 px-4">
         <div className="max-w-3-4xl mx-auto space-y-12 font-proxima">
           <div>
@@ -162,7 +158,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* SECTION 4 */}
       <section className="mb-4 py-8 px-4">
         <div className="max-w-3-4xl mx-auto space-y-4 font-proxima">
           <h2 className="text-green1 font-bold text-2xl md:text-4xl">FAQs...</h2>
@@ -181,7 +176,6 @@ export default function Home() {
           </ul>
         </div>
       </section>
-      {/* SECTION 5 */}
       <section className="mb-4 py-8 px-4">
         <div className="max-w-3-4xl mx-auto space-y-4 font-proxima">
           <h2 className="text-green1 font-bold text-2xl md:text-4xl">Utah Medical Cannabis Pharmacies</h2>
@@ -318,19 +312,17 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* SECTION 6 */}
       <section className="relative px-4 mb-8 md:mb-0">
         <div className="max-w-3-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 font-proxima">
           <div>
             <h2 className="text-green1 font-bold text-2xl md:text-4xl mb-6">About Utah Grown</h2>
-            <p className="text-grey2 text-grey2 font-semibold text-sm leading-loose">
+            <p className="text-grey2 font-semibold text-sm leading-loose">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam- corper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore.
             </p>
             <h2 className="text-green1 font-bold text-2xl md:text-3xl mt-8">Utah Grown Office</h2>
             <p className="text-grey2 font-semibold md:text-xl">730 State Street</p>
             <p className="text-grey2 font-semibold md:text-xl">Salt Lake City, Utah 84111</p>
           </div>
-          {/* Right image */}
           <div className="relative z-10">
             <img
               src="/assets/NormalizeItUtah@2xTrim.png"
