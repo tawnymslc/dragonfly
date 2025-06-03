@@ -1,5 +1,5 @@
   import { useState } from 'react';
-  
+
   export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
     return(
@@ -13,11 +13,11 @@
             </nav>
             {isOpen && (
                 <div className="md:hidden px-4 p-6 flex flex-col gap-2 text-green1 text-sm font-semibold">
-                <a href="#">Appointments</a>
-                <a href="#">Medical Card Info</a>
+                <a href="#">APPOINTMENTS</a>
+                <a href="#">MEDICAL CARD INFO</a>
                 <a href="#">FAQs</a>
-                <a href="#">Pharmacies</a>
-                <a href="#">About</a>
+                <a href="#">PHARMACIES</a>
+                <a href="#">ABOUT</a>
                 </div>
             )}
             <button

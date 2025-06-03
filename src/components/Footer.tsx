@@ -1,8 +1,8 @@
 export default function Footer() {
     return(
         <footer className="relative font-proxima">
-            <div className="flex items-end gap-4 mb-4 px-48">
-                <img src="/assets/utahGrownLogo-Green.png" alt="" className="md:w-[200px]"  />
+            <div className="flex justify-center md:justify-start items-end gap-4 mb-4 px-48">
+                <img src="/assets/utahGrownLogo-Green.png" alt="" className="w-full max-w-[100px] md:max-w-[200px]"  />
                 <span className="text-green1 text-sm md:text-md"> UTAH'S CANNABIS COMMUNITY</span>
             </div>
             <div className="w-full h-[75px] bg-green1" />

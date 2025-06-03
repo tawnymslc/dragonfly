@@ -8,8 +8,21 @@ This is a responsive single-page application (SPA) built with **Next.js** and **
 - **Styling**: Tailwind CSS
 - **Design**: Custom colors, spacing, and typography to match the original design
 
-## Customizations
-Custom colors and fonts (e.g., Proxima Nova and Interstate Condensed) are configured in tailwind.config.js.
+## Features
+
+- Fully responsive layout (mobile-first)
+- Custom Tailwind configuration for fonts, colors, and spacing
+- Component-based structure using React
+- Accessible navigation and semantic HTML
+- Custom illustrations and brand styling integration
+- Mobile hamburger menu toggle
+- Utility-first CSS styling with focus on scalability and clarity
+
+## Technologies Used
+
+- React/Next
+- Tailwind CSS
+- TypeScript (if applicable)
 
 ## Deployment 
 You can deploy this project on platforms like Vercel, Netlify, or any static site host that supports Next.js.
