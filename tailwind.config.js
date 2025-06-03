@@ -22,7 +22,7 @@ module.exports = {
         interstate: ['"Interstate Condensed"', 'sans-serif'],
       },
       maxWidth: {
-        '3-4xl': '52rem', // Halfway between 4xl and 5xl
+        '3-4xl': '52rem', // 1/2 between 4xl and 5xl
       },
     },
   },
